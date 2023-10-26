@@ -11,7 +11,7 @@ import clsx from 'clsx';
 
 const PRODUCTS = [
   {
-    title: 'Live Video',
+    title: 'Flexible',
     link: '/guides/live-video/intro-video-conf',
     icon: VideoRegular,
     lightImage: '/static/landing-page/hero/video-graphic.png',
@@ -19,7 +19,7 @@ const PRODUCTS = [
     text: 'Enable live video communication within your application. Perfect for education, telemedicine, social networks and gaming',
   },
   {
-    title: 'Voice',
+    title: 'Secure',
     link: '/guides/voice-conf/intro-voice-conf',
     icon: MicRegular,
     lightImage: '/static/landing-page/hero/voice-graphic.png',
@@ -27,7 +27,7 @@ const PRODUCTS = [
     text: 'Incorporate high-quality real-time audio into your application. Build voice calls, audio conferences, voice chats in games and more',
   },
   {
-    title: 'Interactive Live Streaming',
+    title: 'High performance',
     link: '/guides/livestream/livestream-overview',
     icon: LiveRegular,
     lightImage: '/static/landing-page/hero/livestream-graphic.png',
@@ -35,8 +35,7 @@ const PRODUCTS = [
     text: 'Integrate highly scalable live video broadcasting capabilities into your app, ideal for apps that involve streaming webinars, sports or live events',
   },
   {
-    title: 'Chat',
-    beta: true,
+    title: 'Painless to grow',
     link: '/guides/realtime-chat/intro-chat',
     icon: ChatMultipleRegular,
     lightImage: '/static/landing-page/hero/chat-graphic.png',
@@ -93,13 +92,10 @@ export default function HeroSection() {
       <section className="noise-bg no-underline-links px-4 pt-16 lg:py-0">
         <div className="flex flex-col items-center justify-between py-14">
           <h2 className="mb-4 font-jakarta text-5xl font-bold">
-            Build with Dyte
+            OpenPanel
           </h2>
           <p className="max-w-xl text-center text-text-400">
-            At Dyte, we're building the future of real-time communication.
-            Integrate programmable, and easily customizable live video and voice
-            into your web, mobile, and desktop applications with just a few
-            lines of code.
+            A powerful control panel for hosting providers.
           </p>
         </div>
       </section>
