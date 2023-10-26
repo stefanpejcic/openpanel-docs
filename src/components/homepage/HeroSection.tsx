@@ -16,7 +16,7 @@ const PRODUCTS = [
     icon: VideoRegular,
     lightImage: '/static/landing-page/hero/video-graphic.png',
     darkImage: '/static/landing-page/hero/video-graphic-dark.png',
-    text: 'Enable live video communication within your application. Perfect for education, telemedicine, social networks and gaming',
+    text: 'Build a high performance hosting cluster with zero-config scaling.',
   },
   {
     title: 'Secure',
@@ -24,7 +24,7 @@ const PRODUCTS = [
     icon: MicRegular,
     lightImage: '/static/landing-page/hero/voice-graphic.png',
     darkImage: '/static/landing-page/hero/voice-graphic-dark.png',
-    text: 'Incorporate high-quality real-time audio into your application. Build voice calls, audio conferences, voice chats in games and more',
+    text: 'Security is at the heart of the OpenPanel. User isolation through containerisation, Let’s Encrypt provisioning, role based access and more help protect your server from vulnerabilities and threats.',
   },
   {
     title: 'High performance',
@@ -32,7 +32,9 @@ const PRODUCTS = [
     icon: LiveRegular,
     lightImage: '/static/landing-page/hero/livestream-graphic.png',
     darkImage: '/static/landing-page/hero/livestream-graphic-dark.png',
-    text: 'Integrate highly scalable live video broadcasting capabilities into your app, ideal for apps that involve streaming webinars, sports or live events',
+    text: 'Limit the CPU, I/O bandwidth, IOPS, nproc and memory on a per-user basis to ensure consistent performance for all hosted websites. Allow users to optimise my.cnf, php.ini and php-fpm per their needs.
+
+',
   },
   {
     title: 'Painless to grow',
@@ -40,7 +42,7 @@ const PRODUCTS = [
     icon: ChatMultipleRegular,
     lightImage: '/static/landing-page/hero/chat-graphic.png',
     darkImage: '/static/landing-page/hero/chat-graphic-dark.png',
-    text: 'Add real-time chat functionalities to your application. Be it customer support, social networks or any other colloboration use case, we got you covered',
+    text: 'Provision new servers to your cluster with a single command. Let users deploy their preferred hosting stack, and you configure global server placement rules, backup settings and more.',
   },
 ];
 
