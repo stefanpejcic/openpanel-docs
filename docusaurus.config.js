@@ -5,7 +5,7 @@ const code_themes = {
 
 /** @type {import('@docusaurus/types').Config} */
 const meta = {
-  title: 'Dyte Docs',
+  title: 'OpenPanel Docs',
   tagline: 'Real-time audio & video SDKs, ready to launch 🚀',
   url: 'https://docs.dyte.io',
   baseUrl: '/',
@@ -433,7 +433,7 @@ const config = {
             className: 'guides-top-header',
           },
           {
-            label: 'SDKs',
+            label: 'Docs',
             type: 'dropdown',
             className: 'dyte-dropdown',
             items: [
@@ -462,7 +462,7 @@ const config = {
           },
           {
             label: 'Support',
-            to: 'https://dyte.io/contact',
+            to: 'https://openpanel.co/contact',
           },
 
           {
@@ -471,13 +471,13 @@ const config = {
           },
           {
             label: 'Book a demo',
-            href: 'https://dyte.io/schedule-demo',
+            href: 'https://openpanel.co/schedule-demo',
             position: 'right',
             className: 'navbar-book-demo',
           },
           {
             label: 'Sign Up',
-            href: 'https://dev.dyte.io/register',
+            href: 'https://openpanel.co/register',
             position: 'right',
             className: 'dev-portal-signup dev-portal-link',
           },
@@ -488,7 +488,7 @@ const config = {
           href: '/',
           src: '/logo/light.svg',
           srcDark: '/logo/dark.svg',
-          alt: 'Dyte Docs',
+          alt: 'OpenPanel Docs',
           height: '36px',
         },
         links: [
@@ -497,15 +497,15 @@ const config = {
             items: [
               {
                 label: 'Demo',
-                href: 'https://app.dyte.io',
+                href: 'https://demo.openpanel.co',
               },
               {
                 label: 'Developer Portal',
-                href: 'https://dev.dyte.io',
+                href: 'https://dev.openpanel.co',
               },
               {
                 label: 'Pricing',
-                href: 'https://dyte.io/#pricing',
+                href: 'https://openpanel.co#pricing',
               },
             ],
           },
@@ -514,19 +514,15 @@ const config = {
             items: [
               {
                 label: 'About Us',
-                href: 'https://dyte.io',
-              },
-              {
-                label: 'Join Us',
-                href: 'https://dyte.freshteam.com/jobs',
+                href: 'https://openpanel.co/about',
               },
               {
                 label: 'Privacy Policy',
-                href: 'https://dyte.io/privacy-policy',
+                href: 'https://openpanel.co/privacy-policy',
               },
               {
                 label: 'Contact Us',
-                href: 'https://dyte.io/contact',
+                href: 'https://openpanel.co/contact',
               },
             ],
           },
@@ -539,16 +535,16 @@ const config = {
               },
               {
                 label: 'Blog',
-                href: 'https://dyte.io/blog',
+                href: 'https://openpanel.co/blog',
               },
               {
                 label: 'Community',
-                href: 'https://community.dyte.io',
+                href: 'https://community.openpanel.co',
               },
             ],
           },
         ],
-        copyright: 'Copyright © Dyte since 2023. All rights reserved.',
+        copyright: 'Copyright © OpenPanel 2023. All rights reserved.',
       },
       prism: {
         theme: code_themes.light,
